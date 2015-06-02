@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AutoReleasePool.cpp">
+      <Filter>DX2DX</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>DX2DX</Filter>
+    </ClCompile>
+    <ClCompile Include="Director.cpp">
+      <Filter>DX2DX</Filter>
+    </ClCompile>
+    <ClCompile Include="dx2dxStruct.cpp">
+      <Filter>DX2DX</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>DX2DX</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>DX2DX</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer.cpp">
+      <Filter>DX2DX</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>DX2DX</Filter>
+    </ClCompile>
+    <ClCompile Include="Ref.cpp">
+      <Filter>DX2DX</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>DX2DX</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>DX2DX</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>DX2DX</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>DX2DX</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTenum.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTgui.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTres.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmesh.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="AppDelegate.cpp">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="Action.cpp">
+      <Filter>DX2DX\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="CallFunc.cpp">
+      <Filter>DX2DX\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionManager.cpp">
+      <Filter>DX2DX\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveBy.cpp">
+      <Filter>DX2DX\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveTo.cpp">
+      <Filter>DX2DX\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Sequence.cpp">
+      <Filter>DX2DX\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Repeat.cpp">
+      <Filter>DX2DX\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="TintTo.cpp">
+      <Filter>DX2DX\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Wait.cpp">
+      <Filter>DX2DX\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="dx2dxFunc.cpp">
+      <Filter>DX2DX</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>DX2DX</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>User\Scene\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="UserFunc.cpp">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="EmptyProject.cpp" />
+    <ClCompile Include="SplashScene.cpp">
+      <Filter>User\Scene\Splash</Filter>
+    </ClCompile>
+    <ClCompile Include="RepeatForever.cpp">
+      <Filter>DX2DX\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Blink.cpp">
+      <Filter>DX2DX\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Label.cpp">
+      <Filter>DX2DX</Filter>
+    </ClCompile>
+    <ClCompile Include="TTF.cpp">
+      <Filter>DX2DX</Filter>
+    </ClCompile>
+    <ClCompile Include="EndianSwap.cpp">
+      <Filter>DX2DX</Filter>
+    </ClCompile>
+    <ClCompile Include="MemPtrReader.cpp">
+      <Filter>DX2DX</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h">
+      <Filter>DX2DX</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoReleasePool.h">
+      <Filter>DX2DX</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>DX2DX</Filter>
+    </ClInclude>
+    <ClInclude Include="Director.h">
+      <Filter>DX2DX</Filter>
+    </ClInclude>
+    <ClInclude Include="dx2dx.h">
+      <Filter>DX2DX</Filter>
+    </ClInclude>
+    <ClInclude Include="dx2dxMacros.h">
+      <Filter>DX2DX</Filter>
+    </ClInclude>
+    <ClInclude Include="dx2dxStruct.h">
+      <Filter>DX2DX</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>DX2DX</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>DX2DX</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>DX2DX</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>DX2DX</Filter>
+    </ClInclude>
+    <ClInclude Include="Ref.h">
+      <Filter>DX2DX</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>DX2DX</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>DX2DX</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>DX2DX</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>DX2DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTcamera.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTenum.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTgui.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTres.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmesh.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <CLInclude Include="resource.h">
+      <Filter>Resouce Files</Filter>
+    </CLInclude>
+    <ClInclude Include="AppDelegate.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="UserDefines.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>DX2DX\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="CallFunc.h">
+      <Filter>DX2DX\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionManager.h">
+      <Filter>DX2DX\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveBy.h">
+      <Filter>DX2DX\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveTo.h">
+      <Filter>DX2DX\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence.h">
+      <Filter>DX2DX\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Repeat.h">
+      <Filter>DX2DX\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="TintTo.h">
+      <Filter>DX2DX\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Wait.h">
+      <Filter>DX2DX\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="dx2dxFunc.h">
+      <Filter>DX2DX</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>DX2DX</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>User\Scene\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="UserFunc.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashScene.h">
+      <Filter>User\Scene\Splash</Filter>
+    </ClInclude>
+    <ClInclude Include="RepeatForever.h">
+      <Filter>DX2DX\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Blink.h">
+      <Filter>DX2DX\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Label.h">
+      <Filter>DX2DX</Filter>
+    </ClInclude>
+    <ClInclude Include="TTF.h">
+      <Filter>DX2DX</Filter>
+    </ClInclude>
+    <ClInclude Include="EndianSwap.h">
+      <Filter>DX2DX</Filter>
+    </ClInclude>
+    <ClInclude Include="MemPtrReader.h">
+      <Filter>DX2DX</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Debug\fmodex.dll" />
+    <None Include="readme.txt" />
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resouce Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="DX2DX">
+      <UniqueIdentifier>{aff76446-3cad-477a-96fe-0567e01f2161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{7655bd78-6348-474a-a4a8-8451e08c0a0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resouce Files">
+      <UniqueIdentifier>{349d947a-7612-4f9a-bc2f-74c31a87c71b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User">
+      <UniqueIdentifier>{7705025e-3b99-4b07-bbf5-3c3a37eef55f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User\Scene">
+      <UniqueIdentifier>{7a3b9394-b866-45a5-9fde-0d0daa4230cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DX2DX\Action">
+      <UniqueIdentifier>{da218f29-89c6-4005-9b15-17365519772e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User\Scene\Title">
+      <UniqueIdentifier>{6d6c8a2d-8ae8-4d5d-8f32-e1238e46f152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User\Scene\Splash">
+      <UniqueIdentifier>{395d7cf3-6ef0-4666-a499-2fb03943f5d4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EmptyProject.rc">
+      <Filter>Resouce Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

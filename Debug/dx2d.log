@@ -1,0 +1,185 @@
+﻿빌드 시작: 2015-06-02 오후 8:38:49
+     1>2 노드의 "c:\Users\Jinwoo\documents\visual studio 2013\Projects\dx2d\dx2d\dx2d.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IDXUT\Core /IDXUT\Optional /I"C:\Program Files (x86)\Visual Leak Detector\include" /ZI /nologo /W4 /WX- /Od /Oi /Oy- /D WIN32 /D _DEBUG /D DEBUG /D PROFILE /D _WINDOWS /D D3DXFX_LARGEADDRESS_HANDLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /openmp- /Yc"DXUT.h" /Fp"Debug\dx2d.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt  DXUT\Core\DXUT.cpp
+         DXUT.cpp
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(12): warning C4005: 'DXGI_STATUS_OCCLUDED' : 매크로 재정의
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50092) : 'DXGI_STATUS_OCCLUDED'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(13): warning C4005: 'DXGI_STATUS_CLIPPED' : 매크로 재정의
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50101) : 'DXGI_STATUS_CLIPPED'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(14): warning C4005: 'DXGI_STATUS_NO_REDIRECTION' : 매크로 재정의
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50110) : 'DXGI_STATUS_NO_REDIRECTION'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(15): warning C4005: 'DXGI_STATUS_NO_DESKTOP_ACCESS' : 매크로 재정의
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50119) : 'DXGI_STATUS_NO_DESKTOP_ACCESS'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(16): warning C4005: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE' : 매크로 재정의
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50128) : 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(17): warning C4005: 'DXGI_STATUS_MODE_CHANGED' : 매크로 재정의
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50137) : 'DXGI_STATUS_MODE_CHANGED'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(18): warning C4005: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS' : 매크로 재정의
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50146) : 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(21): warning C4005: 'DXGI_ERROR_INVALID_CALL' : 매크로 재정의
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50161) : 'DXGI_ERROR_INVALID_CALL'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(22): warning C4005: 'DXGI_ERROR_NOT_FOUND' : 매크로 재정의
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50170) : 'DXGI_ERROR_NOT_FOUND'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(23): warning C4005: 'DXGI_ERROR_MORE_DATA' : 매크로 재정의
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50179) : 'DXGI_ERROR_MORE_DATA'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(24): warning C4005: 'DXGI_ERROR_UNSUPPORTED' : 매크로 재정의
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50188) : 'DXGI_ERROR_UNSUPPORTED'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(25): warning C4005: 'DXGI_ERROR_DEVICE_REMOVED' : 매크로 재정의
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50197) : 'DXGI_ERROR_DEVICE_REMOVED'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(26): warning C4005: 'DXGI_ERROR_DEVICE_HUNG' : 매크로 재정의
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50206) : 'DXGI_ERROR_DEVICE_HUNG'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(27): warning C4005: 'DXGI_ERROR_DEVICE_RESET' : 매크로 재정의
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50216) : 'DXGI_ERROR_DEVICE_RESET'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(28): warning C4005: 'DXGI_ERROR_WAS_STILL_DRAWING' : 매크로 재정의
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50225) : 'DXGI_ERROR_WAS_STILL_DRAWING'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(29): warning C4005: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT' : 매크로 재정의
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50235) : 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(30): warning C4005: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE' : 매크로 재정의
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50244) : 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(31): warning C4005: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR' : 매크로 재정의
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50254) : 'DXGI_ERROR_DRIVER_INTERNAL_ERROR'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(32): warning C4005: 'DXGI_ERROR_NONEXCLUSIVE' : 매크로 재정의
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50263) : 'DXGI_ERROR_NONEXCLUSIVE'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(33): warning C4005: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE' : 매크로 재정의
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50272) : 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(34): warning C4005: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED' : 매크로 재정의
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50282) : 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\dxgitype.h(35): warning C4005: 'DXGI_ERROR_REMOTE_OUTOFMEMORY' : 매크로 재정의
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50291) : 'DXGI_ERROR_REMOTE_OUTOFMEMORY'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d10.h(608): warning C4005: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS' : 매크로 재정의
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50445) : 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'의 이전 정의를 참조하십시오.
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d10.h(609): warning C4005: 'D3D10_ERROR_FILE_NOT_FOUND' : 매크로 재정의
+                 c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50454) : 'D3D10_ERROR_FILE_NOT_FOUND'의 이전 정의를 참조하십시오.
+     1>c:\users\jinwoo\documents\visual studio 2013\projects\dx2d\dx2d\dxut\core\dxut.cpp(4961): warning C4996: 'GetVersionExW': deprecated로 선언되었습니다.
+                 c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(442) : 'GetVersionExW' 선언을 참조하십시오.
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IDXUT\Core /IDXUT\Optional /I"C:\Program Files (x86)\Visual Leak Detector\include" /ZI /nologo /W4 /WX- /Od /Oi /Oy- /D WIN32 /D _DEBUG /D DEBUG /D PROFILE /D _WINDOWS /D D3DXFX_LARGEADDRESS_HANDLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /openmp- /Yu"DXUT.h" /Fp"Debug\dx2d.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt  Action.cpp ActionManager.cpp AppDelegate.cpp AutoReleasePool.cpp Blink.cpp Button.cpp CallFunc.cpp Camera.cpp Director.cpp EndianSwap.cpp Game.cpp Input.cpp Label.cpp Layer.cpp dx2dxStruct.cpp MemPtrReader.cpp MoveBy.cpp MoveTo.cpp dx2dxFunc.cpp Node.cpp Ref.cpp Repeat.cpp RepeatForever.cpp Scene.cpp Sequence.cpp Sound.cpp SplashScene.cpp Sprite.cpp TextureManager.cpp TintTo.cpp TitleScene.cpp TTF.cpp UserFunc.cpp Wait.cpp DXUT\Core\DXUTenum.cpp DXUT\Core\DXUTmisc.cpp DXUT\Optional\DXUTcamera.cpp DXUT\Optional\DXUTgui.cpp DXUT\Optional\DXUTres.cpp DXUT\Optional\DXUTsettingsdlg.cpp DXUT\Optional\SDKmesh.cpp DXUT\Optional\SDKmisc.cpp EmptyProject.cpp
+         Action.cpp
+         ActionManager.cpp
+         AppDelegate.cpp
+         AutoReleasePool.cpp
+     1>c:\users\jinwoo\documents\visual studio 2013\projects\dx2d\dx2d\autoreleasepool.cpp(53): warning C4127: 조건식이 상수입니다.
+         Blink.cpp
+     1>c:\users\jinwoo\documents\visual studio 2013\projects\dx2d\dx2d\blink.cpp(14): warning C4244: '초기화 중' : 'float'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         Button.cpp
+     1>c:\users\jinwoo\documents\visual studio 2013\projects\dx2d\dx2d\button.cpp(55): warning C4127: 조건식이 상수입니다.
+     1>c:\users\jinwoo\documents\visual studio 2013\projects\dx2d\dx2d\button.cpp(65): warning C4127: 조건식이 상수입니다.
+         CallFunc.cpp
+         Camera.cpp
+         Director.cpp
+     1>c:\users\jinwoo\documents\visual studio 2013\projects\dx2d\dx2d\director.cpp(55): warning C4127: 조건식이 상수입니다.
+     1>c:\users\jinwoo\documents\visual studio 2013\projects\dx2d\dx2d\director.cpp(170): warning C4244: '인수' : 'const int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         EndianSwap.cpp
+         Game.cpp
+         Input.cpp
+         Label.cpp
+     1>c:\users\jinwoo\documents\visual studio 2013\projects\dx2d\dx2d\label.cpp(12): warning C4189: 'returnNum' : 지역 변수가 초기화되었으나 참조되지 않았습니다.
+     1>c:\users\jinwoo\documents\visual studio 2013\projects\dx2d\dx2d\label.cpp(37): warning C4244: '=' : 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\jinwoo\documents\visual studio 2013\projects\dx2d\dx2d\label.cpp(38): warning C4244: '=' : 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\jinwoo\documents\visual studio 2013\projects\dx2d\dx2d\label.cpp(48): warning C4244: '-=' : 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\jinwoo\documents\visual studio 2013\projects\dx2d\dx2d\label.cpp(49): warning C4244: '-=' : 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         Layer.cpp
+         dx2dxStruct.cpp
+         MemPtrReader.cpp
+         MoveBy.cpp
+         MoveTo.cpp
+         dx2dxFunc.cpp
+     1>c:\users\jinwoo\documents\visual studio 2013\projects\dx2d\dx2d\dx2dxfunc.cpp(55): warning C4244: '인수' : 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         Node.cpp
+     1>c:\users\jinwoo\documents\visual studio 2013\projects\dx2d\dx2d\node.cpp(74): warning C4127: 조건식이 상수입니다.
+         코드를 생성하고 있습니다...
+         컴파일하고 있습니다...
+         Ref.cpp
+         Repeat.cpp
+         RepeatForever.cpp
+         Scene.cpp
+         Sequence.cpp
+     1>c:\users\jinwoo\documents\visual studio 2013\projects\dx2d\dx2d\sequence.cpp(68): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+         Sound.cpp
+         SplashScene.cpp
+         Sprite.cpp
+     1>c:\users\jinwoo\documents\visual studio 2013\projects\dx2d\dx2d\sprite.cpp(24): warning C4244: '인수' : 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\jinwoo\documents\visual studio 2013\projects\dx2d\dx2d\sprite.cpp(25): warning C4244: '=' : 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\jinwoo\documents\visual studio 2013\projects\dx2d\dx2d\sprite.cpp(26): warning C4244: '=' : 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\jinwoo\documents\visual studio 2013\projects\dx2d\dx2d\sprite.cpp(81): warning C4244: '인수' : 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\jinwoo\documents\visual studio 2013\projects\dx2d\dx2d\sprite.cpp(93): warning C4244: '인수' : 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         TextureManager.cpp
+         TintTo.cpp
+         TitleScene.cpp
+         TTF.cpp
+     1>c:\users\jinwoo\documents\visual studio 2013\projects\dx2d\dx2d\ttf.cpp(33): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\wchar.h(841) : '_wfopen' 선언을 참조하십시오.
+         UserFunc.cpp
+         Wait.cpp
+         DXUTenum.cpp
+         DXUTmisc.cpp
+     1>c:\users\jinwoo\documents\visual studio 2013\projects\dx2d\dx2d\dxut\core\dxutmisc.cpp(1263): warning C4996: 'GetVersionExA': deprecated로 선언되었습니다.
+                 c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(433) : 'GetVersionExA' 선언을 참조하십시오.
+         DXUTcamera.cpp
+         DXUTgui.cpp
+         DXUTres.cpp
+         DXUTsettingsdlg.cpp
+         코드를 생성하고 있습니다...
+     1>c:\users\jinwoo\documents\visual studio 2013\projects\dx2d\dx2d\ttf.cpp(336): warning C4702: 접근할 수 없는 코드입니다.
+         컴파일하고 있습니다...
+         SDKmesh.cpp
+         SDKmisc.cpp
+         EmptyProject.cpp
+     1>c:\users\jinwoo\documents\visual studio 2013\projects\dx2d\dx2d\emptyproject.cpp(142): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(226) : 'freopen' 선언을 참조하십시오.
+         코드를 생성하고 있습니다...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\EmptyProject.res" EmptyProject.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\Users\Jinwoo\documents\visual studio 2013\Projects\dx2d\Debug\dx2d.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" fmodex_vc.lib dinput8.lib d3dx10d.lib d3dx9d.lib dxerr.lib dxguid.lib winmm.lib comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"c:\Users\Jinwoo\documents\visual studio 2013\Projects\dx2d\Debug\dx2d.pdb" /SUBSYSTEM:WINDOWS /LARGEADDRESSAWARE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\Users\Jinwoo\documents\visual studio 2013\Projects\dx2d\Debug\dx2d.lib" /MACHINE:X86 /SAFESEH  Debug\EmptyProject.res
+         Debug\Action.obj
+         Debug\ActionManager.obj
+         Debug\AppDelegate.obj
+         Debug\AutoReleasePool.obj
+         Debug\Blink.obj
+         Debug\Button.obj
+         Debug\CallFunc.obj
+         Debug\Camera.obj
+         Debug\Director.obj
+         Debug\EndianSwap.obj
+         Debug\Game.obj
+         Debug\Input.obj
+         Debug\Label.obj
+         Debug\Layer.obj
+         Debug\dx2dxStruct.obj
+         Debug\MemPtrReader.obj
+         Debug\MoveBy.obj
+         Debug\MoveTo.obj
+         Debug\dx2dxFunc.obj
+         Debug\Node.obj
+         Debug\Ref.obj
+         Debug\Repeat.obj
+         Debug\RepeatForever.obj
+         Debug\Scene.obj
+         Debug\Sequence.obj
+         Debug\Sound.obj
+         Debug\SplashScene.obj
+         Debug\Sprite.obj
+         Debug\TextureManager.obj
+         Debug\TintTo.obj
+         Debug\TitleScene.obj
+         Debug\TTF.obj
+         Debug\UserFunc.obj
+         Debug\Wait.obj
+         Debug\DXUT.obj
+         Debug\DXUTenum.obj
+         Debug\DXUTmisc.obj
+         Debug\DXUTcamera.obj
+         Debug\DXUTgui.obj
+         Debug\DXUTres.obj
+         Debug\DXUTsettingsdlg.obj
+         Debug\SDKmesh.obj
+         Debug\SDKmisc.obj
+         Debug\EmptyProject.obj
+     1>Action.obj : warning LNK4075: '/EDITANDCONTINUE'이(가) '/SAFESEH' 사양으로 인해 무시됩니다.
+         dx2d.vcxproj -> c:\Users\Jinwoo\documents\visual studio 2013\Projects\dx2d\Debug\dx2d.exe
+     1>"c:\Users\Jinwoo\documents\visual studio 2013\Projects\dx2d\dx2d\dx2d.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:07.14
